@@ -11,11 +11,15 @@ The development steps are documented separately in the respective directories. H
 
 ___
 
+:bookmark: 
 ## Sources:
 
 [MDN Web-Speech-Api](https://developer.mozilla.org/de/docs/Web/API/SpeechSynthesis)
+
 [React](https://reactjs.org)
+
 [w3schools](https://www.w3schools.com) 
+
 [Stackoverflow](https://stackoverflow.com)
 
 **Note:** The background-image is form 
