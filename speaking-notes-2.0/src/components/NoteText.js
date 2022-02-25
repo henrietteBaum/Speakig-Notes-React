@@ -23,8 +23,7 @@ function NoteText() {
   }
   
   return (
-    <div>
-      <h1>Speaking Notes</h1>
+    <div className='wrapper'>
       <textarea
       className='textarea'
       rows='10'
@@ -34,15 +33,15 @@ function NoteText() {
       ></textarea>
 
       <div className='btn-group'>
-        <button
-        className='btn-save'
-        onClick={handleBtnSave}
-        >Save Textfile</button>
-
         <WebSpeech
         noteText={noteText}
         setNoteText={setNoteText}
         />
+        <button
+        className='btn-save'
+        onClick={handleBtnSave}
+        >Save</button>
+
       </div>
     </div>
   )

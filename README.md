@@ -3,6 +3,8 @@
 A lightweight and accessible notetaking-app which runs in a browser-window, uses large font-sizes and Text-To-Speech.
 ___
 
+![image-screenshot-app-wondow](speaking-notes-2.0/images/screen-speaking-notes-2.0.png)
+
 The project is for learning purpose only. It shows how "Text to Speech" functions can be implemented using the Web-Speech-API. 
 The various development steps are documented separately in the respective directories. Here you will also find information on sources and further information.
 The aim is also to make the user interface accessible, especially for people with visual impairments.
@@ -11,8 +13,7 @@ The development steps are documented separately in the respective directories. H
 
 ___
 
-:bookmark: 
-## Sources:
+:bookmark: ## Sources:
 
 [MDN Web-Speech-Api](https://developer.mozilla.org/de/docs/Web/API/SpeechSynthesis)
 
