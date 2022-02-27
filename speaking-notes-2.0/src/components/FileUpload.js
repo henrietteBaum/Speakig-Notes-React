@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useRef} from 'react'
 
 function FileUpload({setNoteText}) {
-  // const fileInputRef = useRef([]);
+  const fileInputRef = useRef([]);
+
+  const handleBtnOpen = (e) => {
+    e.preventDefault();
+    fileInputRef.current.click();
+  }
 
 
   let handleInputChange = (e) => {
@@ -20,12 +25,16 @@ function FileUpload({setNoteText}) {
 
   return (
     <div>
-      <input 
-        type='file' 
-        className='btn-add' 
+      <form>
+        <button onClick={handleBtnOpen}>Open</button>
+        <input 
         onChange={handleInputChange}
-        // ref={fileInputRef}
-      />
+        type="file" id="file" multiple accept="text" 
+        style={{display: 'none'}} 
+        ref={fileInputRef} 
+        />
+        {/* <label for="file">Open</label>   */}
+      </form>
     </div>
   )
 }

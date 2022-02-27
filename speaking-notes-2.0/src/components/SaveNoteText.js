@@ -20,9 +20,10 @@ const SaveNoteText = ({noteText}) => {
   return (
     <div>
       <button
-        className='btn-save'
+        className='footer btn-save'
         onClick={handleBtnSave}
         >Save</button>
+      <input placeholder="file name to save ..." type="text" id="file-name" />
     </div>
   )
 }

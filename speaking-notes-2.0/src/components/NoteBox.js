@@ -20,18 +20,18 @@ function NoteBox() {
       ></textarea>
 
       <div className='btn-group'>
-        <WebSpeech
-        noteText={noteText}
-        setNoteText={setNoteText}
-        />
+          <WebSpeech
+          noteText={noteText}
+          setNoteText={setNoteText}
+          />
+          <FileUpload
+          noteText={noteText}
+          setNoteText={setNoteText}
+          />  
         <SaveNoteText
         noteText={noteText}
         setNoteText={setNoteText}
         />
-        <FileUpload
-        noteText={noteText}
-        setNoteText={setNoteText}
-        />  
       </div>
     </div>
   )
