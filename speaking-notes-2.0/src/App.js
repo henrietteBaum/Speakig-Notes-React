@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import NoteText from './components/NoteText';
+import NoteBox from './components/NoteBox';
 import RightMenu from './components/RightMenu';
 import Sidebar from './components/Sidebar';
 
@@ -10,7 +10,7 @@ function App() {
       <Sidebar />
       <Header />
       <RightMenu />
-      <NoteText />
+      <NoteBox />
     </div>
   );
 }

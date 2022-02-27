@@ -1,26 +1,13 @@
 // working version :)))
 
 import React, { useState } from 'react'
+import FileUpload from './FileUpload';
+import SaveNoteText from './SaveNoteText';
 import WebSpeech from './WebSpeech';
 
-function NoteText() {
+function NoteBox() {
 
   const[noteText, setNoteText] = useState([]);
-
-  // let handleBtnSave = (e) => {
-  //   console.log(noteText);
-  // }
-
-  let handleBtnSave = () => {
-    const element = document.createElement('a');
-    const file = new Blob([noteText], {
-      type:'text/plain; charset=utf-8'
-    })
-    element.href = URL.createObjectURL(file);
-    element.download = 'newfile.txt';
-    document.body.appendChild(element);
-    element.click();
-  }
   
   return (
     <div className='wrapper'>
@@ -37,14 +24,17 @@ function NoteText() {
         noteText={noteText}
         setNoteText={setNoteText}
         />
-        <button
-        className='btn-save'
-        onClick={handleBtnSave}
-        >Save</button>
-
+        <SaveNoteText
+        noteText={noteText}
+        setNoteText={setNoteText}
+        />
+        <FileUpload
+        noteText={noteText}
+        setNoteText={setNoteText}
+        />  
       </div>
     </div>
   )
 }
 
-export default NoteText
+export default NoteBox

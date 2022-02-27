@@ -149,7 +149,7 @@ footer > #filename {
 
 /* input for file upload */
 
-[type="file"] {
+/* [type="file"] {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -158,11 +158,11 @@ footer > #filename {
   position: absolute !important;
   white-space: nowrap;
   width: 1px;
-}
+} */
 
 /* File upload button styles */
 
-[type="file"] + label {
+/* [type="file"] + label {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   color: white;
@@ -174,7 +174,7 @@ footer > #filename {
   width: 6rem;
   height: auto;
   border-radius: 5px;
-}
+} */
 
 [type="file"]:focus + label,
 [type="file"] + label:hover {
