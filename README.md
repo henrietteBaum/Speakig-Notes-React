@@ -36,6 +36,6 @@ ___
     <img src="https://img.shields.io/badge/api-WebSpeechApi-blue" alt="label web-speech-api: link to GitHub-Repository"/>
 </a>
 <a href="https://reactjs.org">
-    <img src="https://img.shields.io/badge/library:react.js-blue" alt="label web-speech-api: link to GitHub-Repository"/>
+    <img src="https://img.shields.io/badge/library:-react.js-blue" alt="label web-speech-api: link to GitHub-Repository"/>
 </a>
 </p>
