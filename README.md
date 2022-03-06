@@ -8,7 +8,7 @@ Build with JavaScript, React.js, uses Web-Speech-API.
 
 Version 2.1.uses **styled-components**
 
-![screenshot-app-window](speaking-notes-2.1/public/screenshot-app-2022-03-06.png)
+![screenshot-app-window](images/screenshot-app-window-2.1_2022-03-06.png)
 
 ## Run the app:
 

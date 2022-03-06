@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledTextarea = styled.textarea`
   grid-area: main;
-  width: 100vh;
+  width: 30em;
   background-color: rgb(54, 67, 82);
   border-radius: 5px;
   border-color: rgb(145, 4, 4);

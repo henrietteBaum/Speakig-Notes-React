@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledLabel = styled.label`
-  grid-area: footerLeft;
+  grid-area: footerMid;
   background-color: maroon;
   border-radius: 5px;
   border: 0.5px solid rgb(145, 4, 4);

@@ -8,12 +8,12 @@ export const Container = styled.div`
   grid-gap: 12px;
   margin-left: 12px;
   grid-template-areas: 
-    'ico header'
-    'asideLeft main'
-    'footerLeft footerRight'
+    'ico header header'
+    'asideLeft main main'
+    'footerLeft footerMid footerRight'
   ;
 
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 20% 30em;
   grid-template-rows: 60px 85% 15%;
 
 `;
