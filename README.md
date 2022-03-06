@@ -2,8 +2,13 @@
 
 A lightweight and accessible notetaking-app which runs in a browser-window, uses large font-sizes and Text-To-Speech. 
 
+It is a project for the purpose of learning only.
+
 Build with JavaScript, React.js, uses Web-Speech-API.
 
+Version 2.1.uses **styled-components**
+
+![screenshot-app-window](speaking-notes-2.1/public/screenshot-app-2022-03-06.png)
 
 ## Run the app:
 
@@ -25,12 +30,11 @@ ___
 
 [Stackoverflow](https://stackoverflow.com)
 
-**Note:** The background-image is from 
-[Trinity College Dublin](https://www.tcd.ie), just for private use.
+
 
 ___
 <p>
-<img src="https://img.shields.io/badge/version:-v.2.0-blue" alt="label current version-number: 2.0"/>
+<img src="https://img.shields.io/badge/version:-v.2.1-blue" alt="label current version-number: 2.0"/>
 <img src="https://img.shields.io/badge/accessibility-yes-brightgreen" alt="label for accessibility: yes"/>
 <a href="https://github.com/mdn/content/blob/main/files/en-us/web/api/web_speech_api/index.md">
     <img src="https://img.shields.io/badge/api-WebSpeechApi-blue" alt="label web-speech-api: link to GitHub-Repository"/>

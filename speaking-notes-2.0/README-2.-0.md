@@ -78,3 +78,9 @@ npm install react-speech-kit
 
 ## Sources:
 [Leigh Halliday, youtube](https://www.youtube.com/watch?v=Oe3Un4ZbefM)
+
+
+___
+
+**Note:** The background-image is from 
+[Trinity College Dublin](https://www.tcd.ie), just for private use.
