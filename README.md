@@ -10,9 +10,9 @@ Try it on demo-page: [Demo](https://henriettebaum.github.io/react-page/)
 ___
 
 
-
-<img src="images/screenshot-app-window-2.3_2022-03-15.png" width='80%' alt="screenshot app window v.2.2" />
-
+<p align="center">
+<img src="images/screenshot-app-window-2.3_2022-03-15.png" width='80%'  alt="screenshot app window v.2.2" />
+</p>
 
 ## Changelog
 - Version 2.0 uses only CSS for styling
