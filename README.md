@@ -5,13 +5,20 @@ A lightweight and accessible notetaking-app which runs in a browser-window, uses
 It is a project for the purpose of learning only.
 
 Build with JavaScript, React.js, uses Web-Speech-API.
+___
+Try it on demo-page: [Demo](https://henriettebaum.github.io/react-page/)
+___
+
+![screenshot-app-window](images/screenshot-app-window-2.3_2022-03-15.png)
+
+
 
 ## Changelog
 - Version 2.0 uses only CSS for styling
 - Version 2.1 uses **styled-components**
 - Version 2.2 add function to select a voice and shows how to style the select-element.
 
-![screenshot-app-window](images/screenshot-app-window-2.3_2022-03-15.png)
+___
 
 ## Run the app:
 
