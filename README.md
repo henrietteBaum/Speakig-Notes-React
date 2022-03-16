@@ -9,8 +9,9 @@ ___
 Try it on demo-page: [Demo](https://henriettebaum.github.io/react-page/)
 ___
 
-![screenshot-app-window](images/screenshot-app-window-2.3_2022-03-15.png)
 
+
+<img src="images/screenshot-app-window-2.3_2022-03-15.png" width='80%' alt="screenshot app window v.2.2" />
 
 
 ## Changelog
