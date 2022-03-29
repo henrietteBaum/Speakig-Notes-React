@@ -40,7 +40,6 @@ const useSpeechSynthesis = () => {
 const WebSpeech = ({noteText, setNoteText}) => {
   const [ voices, speak ] = useSpeechSynthesis();
   const [ currentVoice, setCurrentVoice ] = useState();
-  // const [ text, setText ] = useState('');
   
   useEffect(() => {
     if (!currentVoice) {
@@ -52,9 +51,6 @@ const WebSpeech = ({noteText, setNoteText}) => {
     setCurrentVoice(voices.filter(v => v.name === e.target.value)[0]);
   }
   
-  // const handleTextChange = e => {
-  //   setNoteText(e.target.value);
-  // }
   
   const handleSpeak = e => {
     e.preventDefault();
@@ -68,7 +64,6 @@ const WebSpeech = ({noteText, setNoteText}) => {
         onClick={handleSpeak}
         >Speak</StyledButton>
       </StyledSidebar>
-        {/* <StyledMainSelect>Voice */}
         <StyledSelect
         value={currentVoice ? currentVoice.name : 'Voice'} 
         onChange={handleVoiceChange}>
@@ -77,7 +72,6 @@ const WebSpeech = ({noteText, setNoteText}) => {
           <option key={opt.name} value={opt.name}>{`${opt.name}`}</option>
           ))}
         </StyledSelect>
-        {/* </StyledMainSelect> */}
       </>
   );
 };
