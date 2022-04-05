@@ -6,7 +6,6 @@ function SelectVoice() {
   const [selectedVoice, setSelectedVoice] = useState('');
 
   const voiceList = window.speechSynthesis.getVoices();
-  // const items=['Select a Voice', 'Banana', 'Apple', 'Orange']
   console.log(voiceList);
 
   useEffect(() => {
