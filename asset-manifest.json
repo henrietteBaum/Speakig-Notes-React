@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/speaking-notes-react/static/js/main.3e1f906c.js",
-    "index.html": "/speaking-notes-react/index.html",
-    "main.3e1f906c.js.map": "/speaking-notes-react/static/js/main.3e1f906c.js.map"
+    "main.js": "/Speaking-Notes-React/static/js/main.f78d92f0.js",
+    "index.html": "/Speaking-Notes-React/index.html",
+    "main.f78d92f0.js.map": "/Speaking-Notes-React/static/js/main.f78d92f0.js.map"
   },
   "entrypoints": [
-    "static/js/main.3e1f906c.js"
+    "static/js/main.f78d92f0.js"
   ]
 }
