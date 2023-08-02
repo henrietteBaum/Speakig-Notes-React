@@ -8,7 +8,7 @@ Build with JavaScript, React.js, uses Web-Speech-API.
 ___
 Try it on demo-page: [Demo](https://henriettebaum.github.io/Speaking-Notes-React/)
 
-:heavy_exclamation_mark: Note: currently the option to select a voice does not work under macOs/Safari.
+
 ___
 
 
